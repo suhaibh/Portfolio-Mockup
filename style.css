@@ -1,0 +1,24 @@
+.fluid-container {
+	height: 100vh;
+	padding-top: 0px;
+}
+
+.home {
+	background-image: url(pink_rice/pink_rice.png);
+	height: 25%;
+}
+
+.btn {
+	transition: .25s ease-in-out;
+}
+
+.btn:hover {
+	transform: scale(1.1, 1.1);
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+#main-title {
+	margin-top: 0;
+	padding-top: 20px;
+}
