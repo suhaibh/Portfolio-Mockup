@@ -5,7 +5,7 @@
 
 #home {
 	background-image: url(pink_rice/pink_rice.png);
-	height: 25%;
+	height: 15%;
 }
 
 .btn {
@@ -37,8 +37,10 @@
 	-webkit-text-stroke-width: .5px;
 }
 
+/* PORTFOLIO AND THUMBNAIL OVERLAY */
+
 .portfolio-images {
-	padding-top: 30px;
+	padding-top: 50px;
 }
 
 .project-thumbnail {
@@ -47,7 +49,8 @@
 	height: 200px;
 	width: 200px;
 	float: left;
-	margin-right: 25px;
+	margin-right: 40px;
+	transition: 300ms ease-in-out;
 }
 
 .overlay {
@@ -58,20 +61,35 @@
 	width: 100%;
 	top: 0;
 	color: white;
-	transition: opacity 300ms ease-in;
+	transition: 300ms ease-in-out;
+}
+
+.project-thumbnail:hover {
+	transform: scale(1.1, 1.1);
 }
 
 .project-thumbnail:hover .overlay {
 	opacity: 1;
 }
 
-.project-thumbnail:hover .voices-overlay {
+.github-overlay {
+	position: relative;
+	top: 25%;
 	color: #ffb6c1;
 }
 
-.voices-overlay {
-	text-align: center;
-	position: absolute;
-	top: 50px;
-	right: 75px;
+.github-overlay a {
+	color: #ffb6c1;
+}
+
+.github-overlay a:visited {
+	color: #ffb6c1;
+}
+
+.github-overlay a:hover {
+	color: #ff9dab;
+}
+
+.github-overlay p {
+	font-size: 120%;
 }
