@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body onload="getLocation()">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+	<script>
+
+		function showLocation(position) {
+			var lat = position.coords.latitude;
+			var long = position.coords.longitude;
+			alert(lat + " " + long);
+		}
+
+		function getLocation(){
+			navigator.geolocation.getCurrentPosition(showLocation);
+		}
+	</script>
+
+<p id="city"></p>
+	<script type="application/javascript">
+    function getgeoip(json){
+    	document.write("Geolocation information for IP address : ", json.ip);
+    	document.write("Country : ", json.country);
+    	document.write("Latitude : ", json.latitude);
+    	document.write("Longitude : ", json.longitude);
+    	var city = json.city;
+    	document.getElementById('city').innerHTML = ("City : " + city);
+    }
+
+	</script>
+
+<script type="application/javascript" src="http://www.telize.com/geoip?callback=getgeoip"></script>
+
+</body>
+</html>

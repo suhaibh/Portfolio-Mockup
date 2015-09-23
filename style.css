@@ -37,6 +37,10 @@
 	-webkit-text-stroke-width: .5px;
 }
 
+#about-skills {
+	padding-top: 30px;
+}
+
 /* PORTFOLIO AND THUMBNAIL OVERLAY */
 
 .portfolio-images {
@@ -45,11 +49,10 @@
 
 .project-thumbnail {
 	position: relative;
-	left: 25%;
-	height: 200px;
+	/*height: 200px;
 	width: 200px;
-	float: left;
-	margin-right: 40px;
+	left: 20%;*/
+	margin-bottom: 40px;
 	transition: 300ms ease-in-out;
 }
 
@@ -65,7 +68,7 @@
 }
 
 .project-thumbnail:hover {
-	transform: scale(1.1, 1.1);
+	transform: scale(1.05, 1.05);
 }
 
 .project-thumbnail:hover .overlay {
