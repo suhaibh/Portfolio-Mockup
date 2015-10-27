@@ -41,6 +41,11 @@
 	padding-top: 30px;
 }
 
+.skills-list {
+	list-style-type: none;
+	padding: 0;
+}
+
 /* PORTFOLIO AND THUMBNAIL OVERLAY */
 
 .portfolio-images {
@@ -49,11 +54,15 @@
 
 .project-thumbnail {
 	position: relative;
-	/*height: 200px;
-	width: 200px;
-	left: 20%;*/
+	left: 30px;
+	height: 300px;
+	width: 325px;
 	margin-bottom: 40px;
 	transition: 300ms ease-in-out;
+}
+
+.project-image {
+	height: 100%;
 }
 
 .overlay {
