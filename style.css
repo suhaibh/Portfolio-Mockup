@@ -41,6 +41,36 @@
 	padding-top: 30px;
 }
 
+#about {
+	padding-top: 15px;
+	position: relative;
+}
+
+
+#about:after {
+	content: "";
+	position: absolute;
+	width: 50%;
+	border-bottom: 1px solid #eee;
+	height: 1px;
+	bottom: -3px;
+	left: 25%;
+}
+
+#skills {
+	position: relative;
+}
+
+#skills:after {
+	content: "";
+	position: absolute;
+	width: 50%;
+	border-bottom: 1px solid #eee;
+	height: 1px;
+	bottom: -3px;
+	left: 25%;
+}
+
 .skills-list {
 	list-style-type: none;
 	padding: 0;
