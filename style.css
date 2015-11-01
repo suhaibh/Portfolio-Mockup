@@ -4,8 +4,11 @@
 }
 
 #home {
-	background-image: url(pink_rice/pink_rice.png);
-	height: 15%;
+	background-image: url(hero2.jpg);
+	width: 100%;
+	padding-bottom: 25%;
+	background-size: cover;
+	box-shadow: 0px 10px 10px -8px gray;
 }
 
 .btn {
@@ -29,16 +32,21 @@
 	color: #ffb6c1;
 }
 
-#main-title {
-	margin-top: 0;
-	padding-top: 20px;
+
+#main-title {	
+	padding-top: 8%;
+	font-size: 400%;
+	font-weight: bold;
 	color: white;
-	-webkit-text-stroke-color: black;
-	-webkit-text-stroke-width: .75px;
 }
 
 small {
-	
+	color: #e5e5e5;
+	font-size: 125%
+}
+
+.email {
+	padding-bottom: 10px;
 }
 
 #about-skills {
