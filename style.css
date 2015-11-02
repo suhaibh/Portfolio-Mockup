@@ -34,11 +34,10 @@
 
 
 #main-title {	
-	margin-top: 8%;
+	margin-top: 5%;
 	margin-bottom: 0;
-	font-size: 400%;
+	font-size: 350%;
 	font-weight: bold;
-	height: 50%;
 	color: white;
 	background-color: rgba(0,0,0, 0.5);
 	border-top-left-radius: 5px;
@@ -47,7 +46,7 @@
 }
 
 small {
-	color: #e5e5e5;
+	color: #fff;
 	font-size: 125%;
 	background-color: rgba(0,0,0, 0.5);	
 }
@@ -63,8 +62,12 @@ small {
 	padding-bottom: 10px;
 }
 
+.fa-code {
+	scroll-behavior: smooth;
+}
+
 #about-skills {
-	padding-top: 30px;
+	padding-top: 15px;
 }
 
 #about {
