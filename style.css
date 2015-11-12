@@ -174,11 +174,33 @@ small {
 
 .github-overlay {
 	position: relative;
-	top: 25%;
 	color: #ffb6c1;
+	top: 15%;
+}
+
+.project-title {
+	margin-top: 0;
+}
+
+.project-link {
+	padding-bottom: 10px;
+}
+
+.project-intro {
+	border-bottom: #ffb6c1 medium solid;
+}
+
+.project-details {
+	margin-top: 10px;
+	list-style-type: none;
+}
+
+.detail {
+	padding: 0;
 }
 
 .github-overlay a {
+	text-decoration: none;
 	color: #ffb6c1;
 }
 
@@ -187,6 +209,7 @@ small {
 }
 
 .github-overlay a:hover {
+	text-decoration: none;
 	color: #ff9dab;
 }
 
