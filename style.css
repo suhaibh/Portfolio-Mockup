@@ -156,7 +156,7 @@ small {
 
 .overlay {
 	opacity: 0;
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.3);
 	position: absolute;
 	height: 100%;
 	width: 100%;
@@ -193,10 +193,11 @@ small {
 .project-details {
 	margin-top: 10px;
 	list-style-type: none;
+	padding: 0;
 }
 
 .detail {
-	padding: 0;
+	padding-top: 3px;
 }
 
 .github-overlay a {
